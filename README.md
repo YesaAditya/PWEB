@@ -8,7 +8,7 @@ Navigasi digunakan untuk scroll ke halaman tertentu
 Animasi hover pada semua section, gambar, tombol, dan lain sebagainya
 
 Struktur file:
-yesaaditya.html : Struktur halaman web
+index.html : Struktur halaman web
 style.css : styling dan lay out
 yesaaditya.js : Interaktif dan efek animasi.
 gambar/ : folder untuk gammbar dan file lainnya.
