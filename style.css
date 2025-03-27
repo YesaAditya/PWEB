@@ -1,0 +1,307 @@
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F9F9F9;
+}
+
+p{
+    color: #062743;
+}
+
+nav{
+    position: fixed;
+    top: -100px;
+    width: 100%;
+    z-index: 1000;
+    background-color: #C4FFDD;
+    transition: top 0.8s ease-in-out;
+}
+
+.hero2{
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow:  0px 5px 20px #ffffff;
+    opacity: 0;
+    transform: translateX(-5%);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    box-shadow: 0px 0px 1px #062743;
+}
+
+.hero2.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+section {
+    width: 80%;
+    max-width: 100%;
+    margin: 200px auto ;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#hero1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+
+#hero1 .col {
+    flex: 1; 
+    min-width: 300px; 
+}
+
+#hero1 h3{
+    color: #062743;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+#hero1 h2{
+    color: #062743;
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+#col2 {
+    display: flex;
+    justify-content: center;
+    perspective: 1000px;
+    align-items: center;
+}
+
+#col2 img {
+    max-width: 100%; 
+    height: auto;
+    width: 500px;
+    transition: transform 0.1s ease-out;
+    transform-style: preserve-3d;
+    box-shadow: 0px 0px 3px #062743;
+    border:3px solid #062743;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color: #C4FFDD;
+    margin: 0;
+    align-items: center;
+    gap: 40px;
+    padding: 30px 90px;
+    justify-content: end;
+    box-shadow:  0px 1px 8px #DAFFFB;
+    color: #062743;
+}
+
+nav ul li:first-child{
+    margin-right: auto;
+}
+
+nav ul li:hover{
+    color: #113A5D;
+}
+
+li:hover{
+    transform: scale(1.1);
+}
+
+#hero1{
+    margin-top: 150px;
+    margin-bottom: 50px;
+
+}
+
+#hero1 table tr td h3{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+#hero1 table tr td h1{
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+
+#judul2{
+    text-align: center;
+    font-size: 40px;
+}
+
+#experience table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#experience table tr{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+.kolomexperience {
+    flex: 1;
+    min-width: 250px; 
+    max-width: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #062743;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.kolomexperience img {
+    max-width: 100%;
+    height: auto;
+}
+
+#card-wrapper{
+    display: flex;
+    margin: 3rem auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero2 h1{
+    font-size: 50px;
+    color: #062743;
+    text-align: center;
+}
+
+.cardcontainer{
+    display: flex;
+    justify-content:center ;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.card{
+   background-color: white;
+   border-radius: 10px;
+   padding: 15px;
+   width: 250px;
+   border:1px solid #062743;
+   box-shadow: 0px 0px 8px #C4FFDD;
+   text-align: center;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card img{
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+img{
+    border-radius: 10px;
+}
+
+footer{
+    text-align: center;
+    margin-top: -170px;
+}
+
+#contact table {
+    width: 80%;
+    margin: 0 auto; 
+    border-collapse: separate; 
+    border-spacing: 20px; 
+}
+
+#contact td {
+    width: 25%;
+    vertical-align: top;
+    text-align: left;
+    padding: 15px;
+}
+
+#contact h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#contact p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#contact ul li {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+#contact ul li:hover{
+    transform: scale(1.1);
+}
+
+.followme ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.followme li{
+    display: flex;
+}
+
+.followme a{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    padding: 8px 0;
+    color: #062743;
+}
+
+
+.followme img {
+    width: 30px;
+    height: auto;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #062743;
+    color: #C4FFDD;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #C4FFDD;
+    color: #062743;
+    
+}
